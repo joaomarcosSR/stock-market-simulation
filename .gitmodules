@@ -1,0 +1,3 @@
+[submodule "stock"]
+	path = stock
+	url = git@github.com:joaomarcosSR/stock.git
