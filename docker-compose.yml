@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  symbol-service:
+    image: symbol-service
+    build: ./symbol-service
+    ports:
+      - "5000:8080"
