@@ -4,6 +4,7 @@ services:
     image: symbol-service
     build:
       context: ./symbol-service
-      dockerfile: ./docker/Dockerfile
+      dockerfile: ./docker/debug/Dockerfile
     ports:
       - "5000:8080"
+      - "6000:8000"
